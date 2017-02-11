@@ -1,4 +1,15 @@
-var name = prompt('Wpisz swoje imię');
-// komentarz polecenia 'alert'
-alert('Witaj, ' + name);
-console.log('Witaj, ' + name);
+var a = prompt('Podaj wartość zmiennej (a)')
+var b = prompt('Podaj wartość zmiennej (b)')
+value = 1;
+var value = (a*a) + (2 * a * b) - (b*b);
+console.log(a*a+2*a*b-b*b);
+
+if (value > 0) {
+    console.log('Wynik dodatni');
+} else if (value < 0) {
+    console.log('Wynik ujemny');
+} else if (value === 0) {
+    console.log('Wynik jest równy 0');
+} else {
+    console.log('Wynik nie jest liczbą');
+};
