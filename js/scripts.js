@@ -3,7 +3,6 @@ var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
 var allNames = femaleNames.concat(maleNames);
 console.log('Tablica zawiera następujące imiona: ' + allNames);
 
-var newName ='Franek';
 var newName = prompt('Podaj nowe imię');
 
 if (allNames.indexOf(newName) === -1) {
