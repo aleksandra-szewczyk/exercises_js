@@ -10,5 +10,4 @@ function rysujChoinke(n) {
     }
 }
 
-
-rysujChoinke(5)
+rysujChoinke()
