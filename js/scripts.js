@@ -1,9 +1,9 @@
 function rysujChoinke(n) {
     
-    for (var n = 1; n <= 5; n++) {
+    for (var i = 1; i <= n; i++) {
        var star = " "; 
     
-        for (var m = 1; m <= (n*2-1); m++) {
+        for (var m = 1; m <= (i*2-1); m++) {
              star += '*';
         }
         console.log(star);
@@ -11,3 +11,4 @@ function rysujChoinke(n) {
 }
 
 rysujChoinke()
+
