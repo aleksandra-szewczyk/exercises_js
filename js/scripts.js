@@ -1,12 +1,10 @@
-var add = document.getElementById('addElem');
-var list = document.getElementById('list');
-var itemNumber = 1;
-
-function checkOnclickEvent(param) {
-  list.innerHTML += '<li>item ' + param + '</li>'
+function clickEvent() {
+    var li = document.getElementsByTagName('li').length;
+    list.innerHTML += '<li>item ' + li + '</li>';
 }
 
-add.addEventListener('click', function(e) {
-    checkOnclickEvent(itemNumber);
-    itemNumber++;
-});
+var add = document.getElementById('addElem');
+var list = document.getElementById('list');
+
+add.addEventListener('click', clickEvent);
+
